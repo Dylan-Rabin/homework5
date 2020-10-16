@@ -193,6 +193,11 @@ header{
   }
 }
 
+@media (prefers-reduced-motion) {
+  #logo {
+    animation: none;
+  }
+  
 @media print { 
   .card {
     flex-basis: 200px;
@@ -200,6 +205,3 @@ header{
   /*Your code here again.*/
   /*You will want four selectors*/  
 }
-
-/*Your code here again.*/ 
-/*Add media query to handle reduced-motion*/
