@@ -202,6 +202,13 @@ header{
   .card {
     flex-basis: 200px;
   }
-  /*Your code here again.*/
-  /*You will want four selectors*/  
+  #gallery{
+    display: none;
+  }
+  .gallery{
+    display: none;
+  }
+  .pricing{
+    display: grid;
+}
 }
